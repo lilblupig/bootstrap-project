@@ -14,7 +14,8 @@
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a class="navbar-brand" href="/">Whiskey Drop</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarnavdropdown" aria-controls="navbarnavdropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarnavdropdown"
+            aria-controls="navbarnavdropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -22,6 +23,16 @@
             <ul class="navbar-nav ml-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropdownmenulink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                    <div class="dropdown-menu" aria-labelled-by="navbardropdownmenulink">
+                        <a class="dropdown-item" href="">Scotch</a>
+                        <a class="dropdown-item" href="">Irish</a>
+                        <a class="dropdown-item" href="">Japanese</a>
+                        <a class="dropdown-item" href="">American</a>
+                    </div>
+                </li>
                 <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign Up / Sign In</a></li>
                 <div class="d-none d-md-block">
                     <p class="navbar-text my-auto mr-2">Whiskey delivered to your door!</p>
