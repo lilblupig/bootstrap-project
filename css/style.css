@@ -1,6 +1,5 @@
 body {
    font-family: 'Roboto', sans-serif;
-   position: relative;
 }
 
 .alert-container .col-12 {
@@ -38,16 +37,24 @@ body {
     position: relative;
 }
 
+/* table */
+
 .table-container {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.quotes-container {
-
+.table-container th {
+    color: #f05f40;
 }
 
-.features-container {
+.table-container td:nth-child(2) {
+    text-align: right;
+}
 
+.table-container th:nth-child(2) {
+    text-align: right;
 }
 
 /* navbar */
@@ -183,10 +190,6 @@ body {
 
 }
 
-.container-wrapper {
-
-}
-
 .container-wrapper-red {
     background-color: #f05f40;
     color: #ffffff;
@@ -194,10 +197,16 @@ body {
 
 .feature {
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .feature i {
     margin-bottom: 2rem;
     font-size: 3rem;
     margin-top: 1rem;
+}
+
+.features .badge-success {
+    background-color: gold;
 }
