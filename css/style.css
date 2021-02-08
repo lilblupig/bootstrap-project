@@ -15,6 +15,11 @@ body {
    background-color: #3a2f2fc2;
    border-color: #f05f40;
    border-width: 2px;
+   color: #fff;
+}
+
+.site-wide-alert a {
+    color: #f05f40;
 }
 
 .callout-container {
