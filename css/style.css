@@ -1,5 +1,6 @@
 body {
    font-family: 'Roboto', sans-serif;
+   position: relative;
 }
 
 .alert-container {
@@ -34,7 +35,37 @@ body {
 
 }
 
-/*jumbotron*/
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* jumbotron */
 
 .jumbotron {
     background: transparent;
@@ -84,7 +115,7 @@ body {
 
 }
 
-/*buttons*/
+/* buttons */
 
 .btn-cta {
     font-weight: bold;
